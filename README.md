@@ -2,7 +2,7 @@ This Python script automates the process of encoding username and password combi
 Functionality Overview:
 
     File Reading:
-        The script first reads two text files (Usernames_CISCO.txt and Passwords_CISCO.txt), extracting the usernames and passwords into separate lists. Each line in these files is treated as a username or a password.
+        The script first reads two text files (Usernames.txt and Passwords.txt), extracting the usernames and passwords into separate lists. Each line in these files is treated as a username or a password.
 
     Base64 Encoding:
         It then generates all possible combinations of usernames and passwords (one from each list), and each combination is encoded in base64 format. Base64 encoding is often used to encode binary data into ASCII characters, making it suitable for storage and transmission over text-based protocols.
